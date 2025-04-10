@@ -1,0 +1,20 @@
+{
+  "name": "react-projects",
+  "version": "1.0.0",
+  "description": "This is a repo that stores my personal react projects to learn this useful library as my objetive to become a professional devloper.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RazFernandez/react-projects.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RazFernandez/react-projects/issues"
+  },
+  "homepage": "https://github.com/RazFernandez/react-projects#readme"
+}
