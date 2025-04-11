@@ -1,0 +1,18 @@
+// Overall Style for HTML page
+@import 'variables';
+@import 'tw-followCard';
+
+body {
+    margin: 0;
+    font-family: $general_font_family;
+    background: $html_page_background;
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    gap: $gap-between-cards;
+}

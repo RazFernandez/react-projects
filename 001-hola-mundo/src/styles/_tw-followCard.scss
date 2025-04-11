@@ -1,0 +1,39 @@
+@import 'variables';
+
+// BEM Block: .tw-followCard
+.tw-followCard {
+    display: flex;
+    align-items: center;
+    color: $white;
+    font-size: $font-size-small;
+    justify-content: space-between;
+
+    &-header {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+
+    &-info {
+        display: flex;
+        flex-direction: column;
+
+        &UserName {
+            opacity: 0.6;
+        }
+    }
+
+    &-avatar {
+        width: $avatar-size;
+        height: $avatar-size;
+        border-radius: $border-radius-full;
+    }
+
+    &-button {
+        margin-left: 16px;
+        border: 0;
+        border-radius: $button-radius;
+        padding: $button-padding;
+        font-weight: bold;
+    }
+}
