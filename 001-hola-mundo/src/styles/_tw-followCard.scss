@@ -1,4 +1,5 @@
 @import 'variables';
+@import 'mixins';
 
 // BEM Block: .tw-followCard
 .tw-followCard {
@@ -30,10 +31,29 @@
     }
 
     &-button {
+        cursor: pointer;
         margin-left: 16px;
         border: 0;
         border-radius: $button-radius;
         padding: $button-padding;
         font-weight: bold;
+        @include button-border(#000);
+        transition: 0.5s ease background-color;
+
+        &.is-following {
+            // background-color: $button-background;
+            // color: $white;
+            @include button-border($white);
+
+            &:hover {
+                background-color: $red;
+                color: $white;
+            }
+        }
+
+        &:hover {
+            background-color: $button-background-hover;
+            color: $white;
+        }
     }
 }

@@ -1,0 +1,4 @@
+// mixin to set the color of the boder for buttons
+@mixin button-border($color) {
+    border: 1px solid $color;
+}
