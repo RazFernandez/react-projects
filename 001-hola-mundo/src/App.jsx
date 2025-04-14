@@ -7,19 +7,19 @@ export function App() {
     // functionm to format the username
     return (
         <section className='App'>
-            <TwitterFollowCard isFollowing userName="RazFernandez">
+            <TwitterFollowCard  userName="RazFernandez">
                 Miguel Raziel Fernandez Pascual
             </TwitterFollowCard>
 
-            <TwitterFollowCard isFollowing={false} userName="midudev">
+            <TwitterFollowCard  userName="midudev">
                 Miguel Diego Alvarez
             </TwitterFollowCard>
 
-            <TwitterFollowCard isFollowing userName="OscarAlvarez">
+            <TwitterFollowCard  userName="OscarAlvarez">
                 Oscar Alvarez Rodriguez
             </TwitterFollowCard>
 
-            <TwitterFollowCard isFollowing = {false} userName="OscarAlvarez">
+            <TwitterFollowCard  userName="OscarAlvarez">
                 Oscar Alvarez Rodriguez
             </TwitterFollowCard>
 
