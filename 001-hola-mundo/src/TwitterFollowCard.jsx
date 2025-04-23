@@ -1,13 +1,13 @@
 import { useState } from 'react'
 
-export function TwitterFollowCard({ children, userName = 'unknown'}) {
+export function TwitterFollowCard({ children, userName = 'unknown', initialIsFollowing }) {
     
     // props must be inmutable
     // const { userName, name, isFollowing } = props
 
     // const that holds the state of the component
     console.log("[TwitterFollowCard] render with userName: ", userName)
-    const [isFollowing, setIsFollowing] = useState(false)
+    const [isFollowing, setIsFollowing] = useState(initialIsFollowing)
     
 
     // const state = useState(false)
